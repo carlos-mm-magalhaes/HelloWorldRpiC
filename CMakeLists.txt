@@ -8,3 +8,4 @@ add_subdirectory(Adder)
 target_include_directories(${PROJECT_NAME} PUBLIC Adder)
 target_link_directories(${PROJECT_NAME} PUBLIC Adder)
 target_link_libraries(${PROJECT_NAME} adder)
+
